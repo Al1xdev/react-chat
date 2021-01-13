@@ -1,8 +1,11 @@
 import React from 'react';
+import './css/index.css'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='container'>
+      <h1>React chat</h1>
+    </div>
   )
 }
 
